@@ -1,0 +1,44 @@
+﻿namespace ToolLibrary.Type
+{
+    public enum EmFieldType
+    {
+        //文字
+        String = 0,
+        //文字[]
+        StringArray,
+        //比特[]
+        Byte,
+        //整数
+        Integer,
+        //整数[]
+        IntegerArray,
+        //长整数
+        Long,
+        //长整数[]
+        LongArray,
+        //实数
+        Double,
+        //实数[]
+        DoubleArray,
+        //真假
+        Boolean,
+        //真假[]
+        BooleanArray,
+        //日期
+        Date,
+        //日期[]
+        DateArray,
+        //时间戳
+        Timestamp,
+        //时间戳[]
+        TimestampArray,
+        //时间
+        Time,
+        //时间[]
+        TimeArray,
+        //XXXDTO
+        DTO,
+        //XXXDTO[]
+        DTOArray
+    }
+}
